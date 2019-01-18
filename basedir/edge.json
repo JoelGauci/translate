@@ -48,7 +48,7 @@
             }
         ],
         "developerApps": {
-            "jean.martin.demo@gmail.com": [
+            "helene.dozi.demo@gmail.com": [
                 {
                     "name": "translateApp",
                     "apiProducts": [ "TranslateProduct" ],
