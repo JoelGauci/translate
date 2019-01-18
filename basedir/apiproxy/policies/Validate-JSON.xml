@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout async="false" continueOnError="false" enabled="true" name="Validate-JSON">
+    <DisplayName>Validate JSON</DisplayName>
+    <Properties>
+        <Property name="schema">{
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "type": "object",
+            "properties": {
+            "q": {
+            "type": "string"
+            },
+            "source": {
+            "type": "string"
+            },
+            "target": {
+            "type": "string"
+            },
+            "format": {
+            "type": "string"
+            }
+            },
+            "required": [
+            "q",
+            "source",
+            "target",
+            "format"
+            ]
+            }
+        </Property>
+    </Properties>
+    <ClassName>com.google.apigee.edgecallouts.jsonschema.ValidatorCallout</ClassName>
+    <ResourceURL>java://edge-custom-json-schema-validator-1.0.2.jar</ResourceURL>
+</JavaCallout>

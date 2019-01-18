@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Add-CORS" version="SHA-512:9e2154900993f345621e8728c3a936c4912b2f8fb1d16c032495bcacb93e313b640553e9fe5dc1f20b7905d66312e93ff7b4ee2f06fd96284c2d7b21968b0c65"/>
+        <VersionInfo resourceName="Assign-Message-SetKey" version="SHA-512:cae176665292caad397c128052b98be554a41b2aa6283668a524d45adbddb3eba86d917a512fd293470f62cbe20e984b8badaaeaaacb3ff1639ec28b3f265727"/>
+        <VersionInfo resourceName="Assign-Message-SetResponse" version="SHA-512:51389c0cfa0fdaaba5c7eb2c9b0d655b4839f35c1c6b0d0eb0174dfec2c23f34dc3b878e42eb713dda6b138c6ec0b7a30bc95c747b2aa9f86a6cae06bd155ab9"/>
+        <VersionInfo resourceName="Extract-Variables-TranslationFromResponse" version="SHA-512:5b1f05905035c1404ac91eab28f1f7085f40e0528fd9a216f2d98e918cc71c3ab490b81efce837acd64cb04d23925610ce5cea74abd76facf470244a25aac481"/>
+        <VersionInfo resourceName="Key-Value-Map-Operations-GetMapsKey" version="SHA-512:0448d5d96c710599b234ea51a01043110a2dddcad64bf111da2f9562df15a406141e399ff715701fef7a3568e58c039620796de3f1f31bbeb4574ed988871dde"/>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:30e1e6b210c0a644463b1a8c25f5f752cc9d72aedf8c2d9154802eb2b65724810ecf025b2725c48352eb02f9a180b0dfa786f26a741cdae7b5517dc5bf07a7f5"/>
+        <VersionInfo resourceName="Validate-JSON" version="SHA-512:d78d7f6bf475cdf98c1537c863bf2cdf99bfda0a3dada271115a4932432779e6fc2912492d2643d29c5d9f7a36738223766f5992754b555506b1506322b3ed8b"/>
+        <VersionInfo resourceName="Verify-API-Key" version="SHA-512:0dbe1977cc64cad81fd832b102aa38a1b580baece40e7a1bc227ede85ec064f9f7fec60db355da5729c328bd991cb0519a20061304e1322ca945abce65dfcf42"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4c76c734dec53651c321729694856c3dee3b6818c20dbe8305ac33a6b10e5aee88b4537d2b35c72a35bd5cc20fa7de0193fda70a5145cbe8b22d624b49c771c9"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="java://edge-custom-json-schema-validator-1.0.2.jar" version="SHA-512:3c17e2f605c665abaf7604736b34355f496c622c482496fe7e6cad387baa4455c717e7d4081519d2a1331c4ab7a1c3cbd2b32c38976981e6933e1b81bc5b6a41"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:d48f06d729c17c06bad74af4b32d4f49a900d325177299f45d1d9613a82998eb33192e225b5a08d1a0c6c338569a56fc54d7daf061a44384dc8108307926dff4"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:534304682a63e15c57564f28bd1d8e53a3944339f76815671fa4e6520ca3356246ec0b1066b5acd418e901790f5306dd458565b731e8a6a63c13cabb751e6a35"/>
+    </TargetEndpoints>
+</Manifest>

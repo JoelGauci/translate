@@ -1,0 +1,61 @@
+{
+    "version": "1.0",
+    "envConfig": {
+        "test": {
+          "targetServers": [],
+          "virtualHosts": [],
+          "caches": [],
+          "resourcefiles":[],
+          "flowhooks":[]
+        }
+    },
+    "orgConfig": {
+        "apiProducts": [
+            {
+                "name": "TranslateProduct",
+                "apiResources": [
+                    "/",
+                    "/**"
+                ],
+                "approvalType": "auto",
+                "attributes": [
+                    {
+                        "name": "description",
+                        "value": "translate product based on Google translate"
+                    }
+                ],
+                "description": "translate product based on Google translate",
+                "displayName": "Translate Product",
+                "environments": [
+                    "test"
+                ],
+                "proxies": [
+                    "translate"
+                ],
+                "quota": "10",
+                "quotaInterval": "1",
+                "quotaTimeUnit": "minute",
+                "scopes": ["A","openid"]
+            }        
+        ],
+        "developers": [
+            {
+                "email": "helene.dozi.demo@gmail.com",
+                "firstName": "Helene",
+                "lastName": "Dozi",
+                "userName": "helenedozi",
+                "attributes": []
+            }
+        ],
+        "developerApps": {
+            "jean.martin.demo@gmail.com": [
+                {
+                    "name": "translateApp",
+                    "apiProducts": [ "TranslateProduct" ],
+                    "callbackUrl": "http://localhost/redirect",
+                    "scopes": []
+                }
+            ]
+        }
+    }
+}

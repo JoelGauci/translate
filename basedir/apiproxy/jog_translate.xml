@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="9" name="jog_translate">
+    <Basepaths>/jog/translate</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1547113403271</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>translate API used to translate formatted text from one supported language to another.
+</Description>
+    <DisplayName>jog_translate</DisplayName>
+    <LastModifiedAt>1547130906607</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:8a065e1b834f258c5843da9d88226367613ec6cd1e66f2579413c5b1cc8ebe2a63f2491c507ac54ff789531cc199f4039a333c7adb5cf6216ba1d38000c59553</ManifestVersion>
+    <Policies>
+        <Policy>Add-CORS</Policy>
+        <Policy>Assign-Message-SetKey</Policy>
+        <Policy>Assign-Message-SetResponse</Policy>
+        <Policy>Extract-Variables-TranslationFromResponse</Policy>
+        <Policy>Key-Value-Map-Operations-GetMapsKey</Policy>
+        <Policy>Quota-1</Policy>
+        <Policy>Validate-JSON</Policy>
+        <Policy>Verify-API-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://edge-custom-json-schema-validator-1.0.2.jar</Resource>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

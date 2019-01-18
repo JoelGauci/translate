@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Variables-TranslationFromResponse">
+    <DisplayName>Extract Variables-TranslationFromResponse</DisplayName>
+    <Properties/>
+    <JSONPayload>
+        <Variable name="translated">
+            <JSONPath>$.data.translations[0].translatedText</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>
